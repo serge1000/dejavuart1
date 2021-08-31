@@ -4,17 +4,18 @@ export const homeObjOne = {
   lightTopLine: true,
   lightText: true,
   lightTextDesc: true,
-  topLine: 'Marketing Agency',
-  headline: 'Lead Generation Specialist for Online Businesses',
+  topLine: 'Reverse Image Search for Artists',
+  headline: 'Find duplicate and modified copies of your artwork online.',
   description:
-    'We help business owners increase their revenue. Our team of unique specialist can help you achieve your business goals.',
+    'The service is based on  DéjàvuAI technologie.',
   buttonLabel: 'Get Started',
   imgStart: '',
-  img: require('../../images/svg-1.svg'),
-  alt: 'Credit Card',
+  img: require('../../images/Match.png'),
+  alt: 'Reverse Image Search for Artists',
   start: ''
 };
-
+//img: require('../../images/imagesearch.png'),
+//The service is based onimage comparison DéjàvuAI algorithm provided by 1st1 Technologies.
 export const homeObjTwo = {
   primary: true,
   lightBg: false,
@@ -45,7 +46,7 @@ export const homeObjThree = {
     "Their team is wonderful! I can't believe I didn't start working with them earlier.",
   buttonLabel: 'View Case Study',
   imgStart: 'start',
-  img: require('../../images/profile.jpg'),
+  img: require('../../images/Match.png'),
   alt: 'Vault',
   start: 'true'
 };

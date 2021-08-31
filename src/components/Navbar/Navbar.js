@@ -35,15 +35,14 @@ function Navbar() {
   }, []);
 
   window.addEventListener('resize', showButton);
-
+//<NavIcon />
   return (
     <>
-      <IconContext.Provider value={{ color: '#fff' }}>
+      <IconContext.Provider value={{ color: '#33393d' }}>
         <Nav>
           <NavbarContainer>
             <NavLogo to='/' onClick={closeMobileMenu}>
-              <NavIcon />
-              ULTRA
+              Déjàvu Art
             </NavLogo>
             <MobileIcon onClick={handleClick}>
               {click ? <FaTimes /> : <FaBars />}
