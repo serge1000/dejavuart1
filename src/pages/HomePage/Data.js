@@ -7,10 +7,10 @@ export const homeObjOne = {
   topLine: 'Reverse Image Search for Artists',
   headline: 'Find duplicate and modified copies of your artwork online.',
   description:
-    'The service is based on  DéjàvuAI technologie.',
+    'The service is based on  DéjàvuAI technology.',
   buttonLabel: 'Get Started',
   imgStart: '',
-  img: require('../../images/Match.png'),
+  img: require('../../images/undraw_search_orng.svg'),
   alt: 'Reverse Image Search for Artists',
   start: ''
 };

@@ -1,11 +1,11 @@
 import styled from 'styled-components';
 
-//  background: ${({ lightBg }) => (lightBg ? '#fff' : '#101522')};
+//  background: ${({ lightBg }) => (lightBg ? '#fff' : '#101522')}; #7ba0aa
 
 export const InfoSec = styled.div`
   color: #fff;
   padding: 160px 0;
-  background: ${({ lightBg }) => (lightBg ? '#fff' : '#7ba0aa')};
+  background: ${({ lightBg }) => (lightBg ? '#fff' : '#339ecf')};
 `;
 
 export const InfoRow = styled.div`
@@ -35,7 +35,7 @@ export const InfoColumn = styled.div`
 export const TextWrapper = styled.div`
   max-width: 540px;
   padding-top: 0;
-  padding-bottom: 60px;
+  padding-bottom: 0px;
 
   @media screen and (max-width: 768px) {
     padding-bottom: 65px;
@@ -63,7 +63,8 @@ export const Img = styled.img`
   max-width: 100%;
   vertical-align: middle;
   display: inline-block;
-  max-height: 500px;
+  max-height: 360px;
+  cursor: none;
 `;
 
 export const Heading = styled.h1`

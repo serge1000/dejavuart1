@@ -25,7 +25,8 @@ import {
   SocialIcon,
   WebsiteRights,
   SocialIcons,
-  SocialIconLink
+  SocialIconLink,
+  FooterSocialLink
 } from './Footer.elements';
 
 function Footer() {
@@ -33,66 +34,133 @@ function Footer() {
     <FooterContainer>
       <FooterSubscription>
         <FooterSubHeading>
-          Join our exclusive membership to receive the latest news and trends
+        Website uses reverse search technology and DejaVuAI® algorithms  provided by 1st1 Technologies, LLP.
         </FooterSubHeading>
-        <FooterSubText>You can unsubscribe at any time.</FooterSubText>
-        <Form>
-          <FormInput name='email' type='email' placeholder='Your Email' />
-          <Button fontBig>Subscribe</Button>
-        </Form>
+
       </FooterSubscription>
       <FooterLinksContainer>
         <FooterLinksWrapper>
           <FooterLinkItems>
             <FooterLinkTitle>About Us</FooterLinkTitle>
-            <FooterLink to='/sign-up'>How it works</FooterLink>
-            <FooterLink to='/'>Testimonials</FooterLink>
-            <FooterLink to='/'>Careers</FooterLink>
-            <FooterLink to='/'>Investors</FooterLink>
+            <FooterLink to='/sign-up'>Home</FooterLink>
+            <FooterLink to='/'>How it works</FooterLink>
+            <FooterLink to='/'>Prices</FooterLink>
+            <FooterLink to='/'>Log In</FooterLink>
             <FooterLink to='/'>Terms of Service</FooterLink>
           </FooterLinkItems>
           <FooterLinkItems>
-            <FooterLinkTitle>Contact Us</FooterLinkTitle>
-            <FooterLink to='/'>Contact</FooterLink>
-            <FooterLink to='/'>Support</FooterLink>
-            <FooterLink to='/'>Destinations</FooterLink>
-            <FooterLink to='/'>Sponsorships</FooterLink>
+            <FooterLinkTitle>Support</FooterLinkTitle>
+            <FooterLink to='/'>Contact Us</FooterLink>
+            <FooterLink to='/'>FAQ</FooterLink>
           </FooterLinkItems>
         </FooterLinksWrapper>
         <FooterLinksWrapper>
           <FooterLinkItems>
             <FooterLinkTitle>Videos</FooterLinkTitle>
-            <FooterLink to='/'>Submit Video</FooterLink>
-            <FooterLink to='/'>Ambassadors</FooterLink>
-            <FooterLink to='/'>Agency</FooterLink>
-            <FooterLink to='/'>Influencer</FooterLink>
+            <FooterSocialLink
+              href={
+                '//www.youtube.com/watch?v=kTQDPkZq2jk'
+              }
+              rel='noopener noreferrer'
+              target='_blank'
+              aria-label='Youtube'
+            >
+              DejaVuAI® applications for Visual Art
+            </FooterSocialLink>
+            <FooterSocialLink
+              href={
+                '//www.youtube.com/watch?v=EXEq-0PUBZk'
+              }
+              rel='noopener noreferrer'
+              target='_blank'
+              aria-label='Youtube'
+            >
+              Visual Art Demo HD 1080p
+            </FooterSocialLink>
           </FooterLinkItems>
           <FooterLinkItems>
             <FooterLinkTitle>Social Media</FooterLinkTitle>
-            <FooterLink to='/'>Instagram</FooterLink>
-            <FooterLink to='/'>Facebook</FooterLink>
-            <FooterLink to='/'>Youtube</FooterLink>
-            <FooterLink to='/'>Twitter</FooterLink>
+            <FooterSocialLink
+              href={
+                '//www.instagram.com/1st1.tech'
+              }
+              rel='noopener noreferrer'
+              target='_blank'
+              aria-label='Instagram'
+            >
+              Instagram
+            </FooterSocialLink>
+            <FooterSocialLink
+              href={
+                '//www.youtube.com/channel/UCFCH9klYmogY1J0np2DU1yA'
+              }
+              rel='noopener noreferrer'
+              target='_blank'
+              aria-label='Youtube'
+            >
+              Youtube
+            </FooterSocialLink>
+            <FooterSocialLink
+              href={
+                '//twitter.com/1st1T'
+              }
+              rel='noopener noreferrer'
+              target='_blank'
+              aria-label='Twitter'
+            >
+              Twitter
+            </FooterSocialLink>
+            <FooterSocialLink
+              href={
+                '//www.linkedin.com/company/72056094/'
+              }
+              rel='noopener noreferrer'
+              target='_blank'
+              aria-label='LinkedIn'
+            >
+              LinkedIn
+            </FooterSocialLink>
+            <FooterSocialLink
+              href={
+                '//www.facebook.com/1st1-Technologies-Deja-Vu-AI-111776947618029'
+              }
+              rel='noopener noreferrer'
+              target='_blank'
+              aria-label='Facebook'
+            >
+              Facebook
+            </FooterSocialLink>            
           </FooterLinkItems>
         </FooterLinksWrapper>
       </FooterLinksContainer>
       <SocialMedia>
         <SocialMediaWrap>
           <SocialLogo to='/'>
-            <SocialIcon />
-            ULTRA
+             
           </SocialLogo>
-          <WebsiteRights>ULTRA © 2020</WebsiteRights>
+          <WebsiteRights>1st1 Technologies © 2021</WebsiteRights>
           <SocialIcons>
-            <SocialIconLink href='/' target='_blank' aria-label='Facebook'>
+            <SocialIconLink               href={
+                '//www.facebook.com/1st1-Technologies-Deja-Vu-AI-111776947618029'
+              }
+              rel='noopener noreferrer'
+              target='_blank'
+              aria-label='Facebook'
+            >
               <FaFacebook />
             </SocialIconLink>
-            <SocialIconLink href='/' target='_blank' aria-label='Instagram'>
+            <SocialIconLink href={
+                '//www.instagram.com/1st1.tech'
+              }
+              rel='noopener noreferrer'
+              target='_blank'
+              aria-label='Instagram'
+            >
               <FaInstagram />
             </SocialIconLink>
             <SocialIconLink
               href={
-                '//www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A?view_as=subscriber'
+                '//www.youtube.com/channel/UCFCH9klYmogY1J0np2DU1yA'
               }
               rel='noopener noreferrer'
               target='_blank'
@@ -100,10 +168,20 @@ function Footer() {
             >
               <FaYoutube />
             </SocialIconLink>
-            <SocialIconLink href='/' target='_blank' aria-label='Twitter'>
+            <SocialIconLink               href={
+                '//twitter.com/1st1T'
+              }
+              rel='noopener noreferrer'
+              target='_blank'
+              aria-label='Twitter'>
               <FaTwitter />
             </SocialIconLink>
-            <SocialIconLink href='/' target='_blank' aria-label='LinkedIn'>
+            <SocialIconLink href={
+                '//www.linkedin.com/company/72056094/'
+              }
+              rel='noopener noreferrer'
+              target='_blank'
+              aria-label='LinkedIn'>
               <FaLinkedin />
             </SocialIconLink>
           </SocialIcons>

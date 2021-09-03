@@ -6,7 +6,6 @@ import {
   Nav,
   NavbarContainer,
   NavLogo,
-  NavIcon,
   MobileIcon,
   NavMenu,
   NavItem,
@@ -35,7 +34,7 @@ function Navbar() {
   }, []);
 
   window.addEventListener('resize', showButton);
-//<NavIcon />
+
   return (
     <>
       <IconContext.Provider value={{ color: '#33393d' }}>
@@ -54,15 +53,35 @@ function Navbar() {
                 </NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to='/services' onClick={closeMobileMenu}>
-                  Services
+                <NavLinks to='/products' onClick={closeMobileMenu}>
+                  Product
                 </NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to='/products' onClick={closeMobileMenu}>
-                  Products
+                <NavLinks to='/services' onClick={closeMobileMenu}>
+                  Pricing
                 </NavLinks>
               </NavItem>
+              <NavItem>              
+                <NavLinks to='/gallery' onClick={closeMobileMenu}>
+                  Gallery 
+                </NavLinks>
+              </NavItem>
+              <NavItem>
+                <NavLinks to='/faq' onClick={closeMobileMenu}>
+                  FAQ
+                </NavLinks>
+              </NavItem>
+              <NavItem>              
+                <NavLinks to='/support' onClick={closeMobileMenu}>
+                  Support 
+                </NavLinks>
+              </NavItem>
+              <NavItem>
+                <NavLinks to='/login' onClick={closeMobileMenu}>
+                Log In
+                </NavLinks>
+              </NavItem>                            
               <NavItemBtn>
                 {button ? (
                   <NavBtnLink to='/sign-up'>

@@ -5,7 +5,7 @@ import { Container } from '../../globalStyles';
 
 export const Nav = styled.nav`
   background: #fff;
-  height: 80px;
+  height: 70px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -29,7 +29,7 @@ export const NavLogo = styled(Link)`
   cursor: pointer;
   text-decoration: none;
   font-size: 2rem;
-  font-weight: bold;
+  font-weight: 700;
   display: flex;
   align-items: center;
 `;
@@ -64,24 +64,26 @@ export const NavMenu = styled.ul`
     width: 100%;
     height: 90vh;
     position: absolute;
-    top: 80px;
+    top: 70px;
     left: ${({ click }) => (click ? 0 : '-100%')};
     opacity: 1;
     transition: all 0.5s ease;
-    background: #101522;
+    background: #339ecf;
   }
 `;
 
 export const NavItem = styled.li`
-  height: 80px;
+  height: 30px;
   border-bottom: 2px solid transparent;
+
   
   &:hover {
-    border-bottom: 2px solid #4b59f7;
+    border-bottom: 2px solid #1a73e8;
   }
 
   @media screen and (max-width: 960px) {
     width: 100%;
+    height: 60px;
 
     &:hover {
       border: none;
@@ -101,7 +103,7 @@ export const NavItemBtn = styled.li`
 
 export const NavLinks = styled(Link)`
   color: #33393d;
-  font-weight: bold;
+  font-weight: 600;
   display: flex;
   align-items: center;
   text-decoration: none;

@@ -3,7 +3,7 @@ import { FaMagento } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
 export const FooterContainer = styled.div`
-  background-color: #101522;
+  background-color: #525252;
   padding: 4rem 0 2rem 0;
   display: flex;
   flex-direction: column;
@@ -105,6 +105,17 @@ export const FooterLinkTitle = styled.h2`
 `;
 
 export const FooterLink = styled(Link)`
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+
+  &:hover {
+    color: #0467fb;
+    transition: 0.3s ease-out;
+  }
+`;
+
+export const FooterSocialLink = styled.a`
   color: #fff;
   text-decoration: none;
   margin-bottom: 0.5rem;
