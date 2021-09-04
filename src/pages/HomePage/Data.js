@@ -15,10 +15,10 @@ export const homeObjOne = {
   start: ''
 };
 //img: require('../../images/imagesearch.png'),
-//The service is based onimage comparison DéjàvuAI algorithm provided by 1st1 Technologies.
+//The service is based on image comparison DéjàvuAI algorithm provided by 1st1 Technologies.
 export const homeObjTwo = {
-  primary: true,
-  lightBg: false,
+  primary: false,
+  lightBg: true,
   lightTopLine: true,
   lightText: true,
   lightTextDesc: true,
@@ -53,7 +53,7 @@ export const homeObjThree = {
 
 export const homeObjFour = {
   primary: true,
-  lightBg: false,
+  lightBg: true,
   lightTopLine: true,
   lightText: true,
   lightTextDesc: true,

@@ -34,7 +34,7 @@ function Footer() {
     <FooterContainer>
       <FooterSubscription>
         <FooterSubHeading>
-        Website uses reverse search technology and DejaVuAI® algorithms  provided by 1st1 Technologies, LLP.
+        The service uses reverse search technology and DejaVuAI® algorithms  provided by 1st1 Technologies, LLP.
         </FooterSubHeading>
 
       </FooterSubscription>

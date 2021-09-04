@@ -6,7 +6,7 @@ export const PricingSection = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: #4b59f7;
+  background: #fff;
 `;
 
 export const PricingWrapper = styled.div`
@@ -24,7 +24,7 @@ export const PricingWrapper = styled.div`
 `;
 
 export const PricingHeading = styled.h1`
-  color: #fff;
+  color: #3c4246;
   font-size: 48px;
   margin-bottom: 24px;
 `;
@@ -44,7 +44,7 @@ export const PricingContainer = styled.div`
 `;
 
 export const PricingCard = styled(Link)`
-  background: #242424;
+  background: ${({ cardColor }) => (cardColor)};
   box-shadow: 0 6px 20px rgba(56, 125, 255, 0.2);
   width: 280px;
   height: 500px;
@@ -84,21 +84,24 @@ export const PricingCardIcon = styled.div`
 `;
 
 export const PricingCardPlan = styled.h3`
-  margin-bottom: 5px;
+  margin-bottom: 50px;
   font-size: 24px;
+  color: #3c4246;
 `;
 
 export const PricingCardCost = styled.h4`
   font-size: 40px;
+  color: #3c4246;  
 `;
 
 export const PricingCardLength = styled.p`
   font-size: 14px;
   margin-bottom: 24px;
+  color: #3c4246;  
 `;
 
 export const PricingCardFeatures = styled.ul`
-  margin: 16px 0 32px;
+  margin: 16px 0 52px;
   list-style: none;
   display: flex;
   flex-direction: column;
