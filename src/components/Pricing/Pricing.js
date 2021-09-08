@@ -1,9 +1,5 @@
 import React from 'react';
 import { Button } from '../../globalStyles';
-import { AiFillThunderbolt } from 'react-icons/ai';
-import { GiCrystalBars } from 'react-icons/gi';
-import { GiCutDiamond, GiRock } from 'react-icons/gi';
-import { GiFloatingCrystal } from 'react-icons/gi';
 import { IconContext } from 'react-icons/lib';
 import {
   PricingSection,
@@ -12,14 +8,13 @@ import {
   PricingContainer,
   PricingCard,
   PricingCardInfo,
-  PricingCardIcon,
   PricingCardPlan,
   PricingCardCost,
   PricingCardLength,
   PricingCardFeatures,
   PricingCardFeature
 } from './Pricing.elements';
-
+//e5ffe3 ededed feffd6
 function Pricing({cardColor}) {
   return (
     <IconContext.Provider value={{ color: '#a9b3c1', size: 64 }}>
@@ -27,7 +22,7 @@ function Pricing({cardColor}) {
         <PricingWrapper>
           <PricingHeading>Our Plans</PricingHeading>
           <PricingContainer>
-            <PricingCard cardColor='#e5ffe3' to='/sign-up'>
+            <PricingCard cardColor='#fff' to='/sign-up'>
               <PricingCardInfo>
                 <PricingCardPlan>Free</PricingCardPlan>
                 <PricingCardCost>$0.00</PricingCardCost>
@@ -40,7 +35,7 @@ function Pricing({cardColor}) {
                 <Button primary>Choose Plan</Button>
               </PricingCardInfo>
             </PricingCard>
-            <PricingCard cardColor='#ededed'  to='/sign-up'>
+            <PricingCard cardColor='#fff'  to='/sign-up'>
               <PricingCardInfo>
                 <PricingCardPlan>Silver</PricingCardPlan>
                 <PricingCardCost>$49.99</PricingCardCost>
@@ -53,7 +48,7 @@ function Pricing({cardColor}) {
                 <Button primary>Choose Plan</Button>
               </PricingCardInfo>
             </PricingCard>
-            <PricingCard cardColor='#feffd6' to='/sign-up'>
+            <PricingCard cardColor='#fff' to='/sign-up'>
               <PricingCardInfo>
                 <PricingCardPlan>Gold</PricingCardPlan>
                 <PricingCardCost>$99.99</PricingCardCost>

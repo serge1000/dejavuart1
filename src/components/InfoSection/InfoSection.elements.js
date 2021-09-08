@@ -5,9 +5,10 @@ import styled from 'styled-components';
 export const InfoSec = styled.div`
   color: #fff;
   padding: 160px 0;
-  background: ${({ lightBg }) => (lightBg ? '#fff' : '#339ecf')};
+  background: ${({ lightBg }) => (lightBg ? '#fff' : '#d4e4fa')};
+  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.2);
 `;
-
+//339ecf
 export const InfoRow = styled.div`
   display: flex;
   margin: 0 -15px -15px -15px;

@@ -7,6 +7,7 @@ export const PricingSection = styled.div`
   flex-direction: column;
   justify-content: center;
   background: #fff;
+  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.2);
 `;
 
 export const PricingWrapper = styled.div`
@@ -49,7 +50,10 @@ export const PricingCard = styled(Link)`
   width: 280px;
   height: 500px;
   text-decoration: none;
-  border-radius: 4px;
+  border:  solid;
+  border-width: 1px;
+  border-color: #7ba0aa;
+  border-radius: 10px;
 
   &:nth-child(2) {
     margin: 24px;

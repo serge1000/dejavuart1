@@ -85,12 +85,12 @@ function Navbar() {
               <NavItemBtn>
                 {button ? (
                   <NavBtnLink to='/sign-up'>
-                    <Button primary>SIGN UP</Button>
+                    <Button primary>SIGN UP FOR FREE</Button>
                   </NavBtnLink>
                 ) : (
                   <NavBtnLink to='/sign-up'>
                     <Button onClick={closeMobileMenu} fontBig primary>
-                      SIGN UP
+                    SIGN UP FOR FREE
                     </Button>
                   </NavBtnLink>
                 )}

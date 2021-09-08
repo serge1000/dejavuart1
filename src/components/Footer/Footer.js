@@ -1,5 +1,4 @@
 import React from 'react';
-import { Button } from '../../globalStyles';
 import {
   FaFacebook,
   FaInstagram,
@@ -10,10 +9,7 @@ import {
 import {
   FooterContainer,
   FooterSubscription,
-  FooterSubText,
   FooterSubHeading,
-  Form,
-  FormInput,
   FooterLinksContainer,
   FooterLinksWrapper,
   FooterLinkItems,
@@ -22,7 +18,6 @@ import {
   SocialMedia,
   SocialMediaWrap,
   SocialLogo,
-  SocialIcon,
   WebsiteRights,
   SocialIcons,
   SocialIconLink,
@@ -42,16 +37,16 @@ function Footer() {
         <FooterLinksWrapper>
           <FooterLinkItems>
             <FooterLinkTitle>About Us</FooterLinkTitle>
-            <FooterLink to='/sign-up'>Home</FooterLink>
-            <FooterLink to='/'>How it works</FooterLink>
-            <FooterLink to='/'>Prices</FooterLink>
-            <FooterLink to='/'>Log In</FooterLink>
+            <FooterLink to='/'>Home</FooterLink>
+            <FooterLink to='/products'>How it works</FooterLink>
+            <FooterLink to='/services'>Prices</FooterLink>
+            <FooterLink to='/login'>Log In/Sign Up</FooterLink>
             <FooterLink to='/'>Terms of Service</FooterLink>
           </FooterLinkItems>
           <FooterLinkItems>
             <FooterLinkTitle>Support</FooterLinkTitle>
-            <FooterLink to='/'>Contact Us</FooterLink>
-            <FooterLink to='/'>FAQ</FooterLink>
+            <FooterLink to='/faq'>Contact Us</FooterLink>
+            <FooterLink to='/faq'>FAQ</FooterLink>
           </FooterLinkItems>
         </FooterLinksWrapper>
         <FooterLinksWrapper>

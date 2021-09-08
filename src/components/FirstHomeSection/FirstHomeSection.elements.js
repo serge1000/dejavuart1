@@ -2,8 +2,6 @@ import styled from 'styled-components';
 import { FaFileUpload, FaSearch } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
-//  background: ${({ lightBg }) => (lightBg ? '#fff' : '#101522')}; #7ba0aa
-
 export const Form = styled.form`
   display: flex;
   justify-content: center;
@@ -16,8 +14,6 @@ export const Form = styled.form`
 
   }
 `;
-
-
 
 export const FormInput = styled.input`
   padding: 12px 20px;
@@ -76,7 +72,7 @@ export const InputContainer = styled.div`
 export const InfoSec = styled.div`
   color: #fff;
   padding: 160px 0;
-  background: ${({ lightBg }) => (lightBg ? '#fff' : '#339ecf')};
+  background: ${({ lightBg }) => (lightBg ? '#fff' : '#7ba0aa')};
 `;
 
 export const InfoRow = styled.div`
